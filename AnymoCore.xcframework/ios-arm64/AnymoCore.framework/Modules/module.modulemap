@@ -1,0 +1,6 @@
+framework module AnymoCore {
+    umbrella header "AnymoCore.h"
+
+    export *
+    module * { export * }
+}

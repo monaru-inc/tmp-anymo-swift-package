@@ -12,18 +12,16 @@ let package = Package(
         .library(
             name: "Anymo",
             type: .dynamic,
-            targets: ["Anymo"]),
-    ],
-    dependencies: [
-        .package(url: "https://github.com/kean/Nuke.git", from: "10.0.0"),
+            targets: ["AnymoWrapper"]),
     ],
     targets: [
         .target(
-            name: "Anymo",
+            name: "AnymoWrapper",
             dependencies: [
                 "AnymoCore",
-                "Nuke"
+                "Anymo"
             ]),
-        .binaryTarget(name: "AnymoCore", path: "AnymoCore/release/AnymoCore.xcframework")
+        .binaryTarget(name: "Anymo", path: "Anymo.xcframework")
+        .binaryTarget(name: "AnymoCore", path: "AnymoCore.xcframework")
     ]
 )
