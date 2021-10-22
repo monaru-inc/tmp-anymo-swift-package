@@ -11,17 +11,16 @@ let package = Package(
     products: [
         .library(
             name: "Anymo",
-            type: .dynamic,
-            targets: ["AnymoWrapper"]),
+            targets: ["Anymo"]),
     ],
     targets: [
         .target(
-            name: "AnymoWrapper",
+            name: "Anymo",
             dependencies: [
                 "AnymoCore",
-                "Anymo"
+                "AnymoUI"
             ]),
-        .binaryTarget(name: "Anymo", path: "Anymo.xcframework")
+        .binaryTarget(name: "AnymoUI", path: "Anymo.xcframework"),
         .binaryTarget(name: "AnymoCore", path: "AnymoCore.xcframework")
     ]
 )
