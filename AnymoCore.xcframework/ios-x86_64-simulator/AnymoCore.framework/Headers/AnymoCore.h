@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class AnymoCoreAnymoSdk, AnymoCoreAnymoSdkConfig, AnymoCoreDatabaseDriverFactory, AnymoCoreAnymoComponent, AnymoCoreContentModule, AnymoCoreAppStyle, AnymoCoreKotlinUnit, AnymoCoreScreen, AnymoCoreCommonFlow<T>, AnymoCoreOpener, AnymoCoreBlock, AnymoCoreLink, AnymoCoreBlockButtonStyle, AnymoCoreBlockButton, AnymoCoreKotlinEnumCompanion, AnymoCoreKotlinEnum<E>, AnymoCoreBlockButtonStyleCompanion, AnymoCoreKotlinArray<T>, AnymoCoreBlockImage, AnymoCoreBlockSpacer, AnymoCoreBlockTextStyle, AnymoCoreBlockText, AnymoCoreBlockTextStyleCompanion, AnymoCoreBlockTypeCompanion, AnymoCoreBlockType, AnymoCoreHorizontalAlignmentCompanion, AnymoCoreHorizontalAlignment, AnymoCoreSlot, AnymoCoreVerticalAlignment, AnymoCorePage, AnymoCoreScreenContentType, AnymoCoreScreenContentTypeCompanion, AnymoCoreVerticalAlignmentCompanion, AnymoCoreLinksModule, AnymoCoreLinkAction, AnymoCoreLinkActionClose, AnymoCoreLinkActionNext, AnymoCoreLinkNavigable, AnymoCoreLinkNavigableHttp, AnymoCoreAnymoDatabaseCompanion, AnymoCoreAppStyle_, AnymoCoreRuntimeQuery<__covariant RowType>, AnymoCoreBlock_, AnymoCoreDbModule, AnymoCoreOpener_, AnymoCorePage_, AnymoCoreScreen_, AnymoCoreSlot_, AnymoCoreApiModule, AnymoCoreKtor_client_coreHttpClient, AnymoCoreKotlinx_serialization_jsonJson, AnymoCoreKtor_client_coreHttpRequestBuilder, AnymoCoreKotlinThrowable, AnymoCoreKotlinException, AnymoCoreKotlinRuntimeException, AnymoCoreKotlinIllegalStateException, AnymoCoreRuntimeTransacterTransaction, AnymoCoreKtor_client_coreHttpClientEngineConfig, AnymoCoreKtor_client_coreHttpClientConfig<T>, AnymoCoreKtor_client_coreHttpClientCall, AnymoCoreKotlinx_coroutines_coreCoroutineDispatcher, AnymoCoreKtor_client_coreHttpReceivePipeline, AnymoCoreKtor_client_coreHttpRequestPipeline, AnymoCoreKtor_client_coreHttpResponsePipeline, AnymoCoreKtor_client_coreHttpSendPipeline, AnymoCoreKotlinx_serialization_coreSerializersModule, AnymoCoreKotlinx_serialization_jsonJsonConfiguration, AnymoCoreKotlinx_serialization_jsonJsonDefault, AnymoCoreKotlinx_serialization_jsonJsonElement, AnymoCoreKtor_httpHeadersBuilder, AnymoCoreKtor_client_coreHttpRequestBuilderCompanion, AnymoCoreKtor_client_coreHttpRequestData, AnymoCoreKtor_httpURLBuilder, AnymoCoreKtor_httpHttpMethod, AnymoCoreKotlinByteArray, AnymoCoreKtor_client_coreHttpResponseData, AnymoCoreKtor_client_coreProxyConfig, AnymoCoreKotlinNothing, AnymoCoreKtor_client_coreHttpClientCallCompanion, AnymoCoreKtor_client_coreTypeInfo, AnymoCoreKtor_client_coreHttpResponse, AnymoCoreKtor_utilsAttributeKey<T>, AnymoCoreKotlinAbstractCoroutineContextElement, AnymoCoreKotlinx_coroutines_coreCoroutineDispatcherKey, AnymoCoreKtor_utilsPipelinePhase, AnymoCoreKtor_utilsPipeline<TSubject, TContext>, AnymoCoreKtor_client_coreHttpReceivePipelinePhases, AnymoCoreKtor_client_coreHttpRequestPipelinePhases, AnymoCoreKtor_client_coreHttpResponsePipelinePhases, AnymoCoreKtor_client_coreHttpResponseContainer, AnymoCoreKtor_client_coreHttpSendPipelinePhases, AnymoCoreKotlinx_serialization_jsonJsonElementCompanion, AnymoCoreKtor_utilsStringValuesBuilder, AnymoCoreKtor_httpUrl, AnymoCoreKtor_httpOutgoingContent, AnymoCoreKtor_httpURLProtocol, AnymoCoreKtor_httpParametersBuilder, AnymoCoreKtor_httpURLBuilderCompanion, AnymoCoreKotlinCancellationException, AnymoCoreKtor_httpHttpMethodCompanion, AnymoCoreKotlinByteIterator, AnymoCoreKtor_httpHttpStatusCode, AnymoCoreKtor_utilsGMTDate, AnymoCoreKtor_httpHttpProtocolVersion, AnymoCoreKtor_ioMemory, AnymoCoreKtor_ioIoBuffer, AnymoCoreKtor_ioByteReadPacket, AnymoCoreKtor_ioByteOrder, AnymoCoreKotlinAbstractCoroutineContextKey<B, E>, AnymoCoreKotlinx_serialization_coreSerialKind, AnymoCoreKtor_httpUrlCompanion, AnymoCoreKtor_httpContentType, AnymoCoreKtor_httpURLProtocolCompanion, AnymoCoreKtor_httpUrlEncodingOption, AnymoCoreKtor_httpHttpStatusCodeCompanion, AnymoCoreKtor_utilsGMTDateCompanion, AnymoCoreKtor_utilsWeekDay, AnymoCoreKtor_utilsMonth, AnymoCoreKtor_httpHttpProtocolVersionCompanion, AnymoCoreKtor_ioMemoryCompanion, AnymoCoreKtor_ioBufferCompanion, AnymoCoreKtor_ioBuffer, AnymoCoreKtor_ioChunkBuffer, AnymoCoreKtor_ioChunkBufferCompanion, AnymoCoreKotlinCharArray, AnymoCoreKtor_ioIoBufferCompanion, AnymoCoreKtor_ioAbstractInputCompanion, AnymoCoreKtor_ioAbstractInput, AnymoCoreKtor_ioByteReadPacketBaseCompanion, AnymoCoreKtor_ioByteReadPacketBase, AnymoCoreKtor_ioByteReadPacketPlatformBase, AnymoCoreKtor_ioByteReadPacketCompanion, AnymoCoreKtor_ioByteOrderCompanion, AnymoCoreKotlinKTypeProjection, AnymoCoreKtor_httpHeaderValueParam, AnymoCoreKtor_httpHeaderValueWithParametersCompanion, AnymoCoreKtor_httpHeaderValueWithParameters, AnymoCoreKtor_httpContentTypeCompanion, AnymoCoreKotlinx_coroutines_coreAtomicDesc, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, AnymoCoreKtor_utilsWeekDayCompanion, AnymoCoreKtor_utilsMonthCompanion, AnymoCoreKotlinCharIterator, AnymoCoreKotlinKVariance, AnymoCoreKotlinKTypeProjectionCompanion, AnymoCoreKotlinx_coroutines_coreAtomicOp<__contravariant T>, AnymoCoreKotlinx_coroutines_coreOpDescriptor, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNode, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class AnymoCoreUnflowEvent, AnymoCoreUnflowEventCompanion, AnymoCoreUnflowEventActionInteraction, AnymoCoreUnflowEventAction, AnymoCoreKotlinEnumCompanion, AnymoCoreKotlinEnum<E>, AnymoCoreKotlinArray<T>, AnymoCoreUnflowEventScreen, AnymoCoreKotlinPair<__covariant A, __covariant B>, AnymoCoreAnymoSdk, AnymoCoreAnymoSdkConfig, AnymoCoreDatabaseDriverFactory, AnymoCoreAnymoComponent, AnymoCoreContentModule, AnymoCoreAppStyle, AnymoCoreKotlinUnit, AnymoCoreScreen, AnymoCoreCommonFlow<T>, AnymoCoreOpener, AnymoCoreBlock, AnymoCoreLink, AnymoCoreBlockButtonStyle, AnymoCoreBlockButton, AnymoCoreBlockButtonStyleCompanion, AnymoCoreBlockImage, AnymoCoreBlockSpacer, AnymoCoreBlockTextStyle, AnymoCoreBlockText, AnymoCoreBlockTextStyleCompanion, AnymoCoreBlockTypeCompanion, AnymoCoreBlockType, AnymoCoreHorizontalAlignmentCompanion, AnymoCoreHorizontalAlignment, AnymoCoreSlot, AnymoCoreVerticalAlignment, AnymoCorePage, AnymoCoreScreenContentType, AnymoCoreScreenContentTypeCompanion, AnymoCoreVerticalAlignmentCompanion, AnymoCoreAnalyticsModule, AnymoCoreLinksModule, AnymoCoreLinkAction, AnymoCoreLinkActionClose, AnymoCoreLinkActionNext, AnymoCoreLinkNavigable, AnymoCoreLinkNavigableHttp, AnymoCoreLinkNavigableOther, AnymoCoreAnymoDatabaseCompanion, AnymoCoreAppStyle_, AnymoCoreRuntimeQuery<__covariant RowType>, AnymoCoreBlock_, AnymoCoreRuntimeAfterVersionWithDriver, AnymoCoreDbModule, AnymoCoreOpener_, AnymoCorePage_, AnymoCoreScreen_, AnymoCoreSlot_, AnymoCoreApiModule, AnymoCoreKtor_client_coreHttpClient, AnymoCoreKotlinx_serialization_jsonJson, AnymoCoreKtor_client_coreHttpRequestBuilder, AnymoCoreKotlinThrowable, AnymoCoreKotlinException, AnymoCoreKotlinRuntimeException, AnymoCoreKotlinIllegalStateException, AnymoCoreRuntimeTransacterTransaction, AnymoCoreKtor_client_coreHttpClientEngineConfig, AnymoCoreKtor_client_coreHttpClientConfig<T>, AnymoCoreKtor_client_coreHttpClientCall, AnymoCoreKotlinx_coroutines_coreCoroutineDispatcher, AnymoCoreKtor_client_coreHttpReceivePipeline, AnymoCoreKtor_client_coreHttpRequestPipeline, AnymoCoreKtor_client_coreHttpResponsePipeline, AnymoCoreKtor_client_coreHttpSendPipeline, AnymoCoreKotlinx_serialization_coreSerializersModule, AnymoCoreKotlinx_serialization_jsonJsonConfiguration, AnymoCoreKotlinx_serialization_jsonJsonDefault, AnymoCoreKotlinx_serialization_jsonJsonElement, AnymoCoreKtor_httpHeadersBuilder, AnymoCoreKtor_client_coreHttpRequestBuilderCompanion, AnymoCoreKtor_client_coreHttpRequestData, AnymoCoreKtor_httpURLBuilder, AnymoCoreKtor_httpHttpMethod, AnymoCoreKotlinByteArray, AnymoCoreKtor_client_coreHttpResponseData, AnymoCoreKtor_client_coreProxyConfig, AnymoCoreKotlinNothing, AnymoCoreKtor_client_coreHttpClientCallCompanion, AnymoCoreKtor_client_coreTypeInfo, AnymoCoreKtor_client_coreHttpResponse, AnymoCoreKtor_utilsAttributeKey<T>, AnymoCoreKotlinAbstractCoroutineContextElement, AnymoCoreKotlinx_coroutines_coreCoroutineDispatcherKey, AnymoCoreKtor_utilsPipelinePhase, AnymoCoreKtor_utilsPipeline<TSubject, TContext>, AnymoCoreKtor_client_coreHttpReceivePipelinePhases, AnymoCoreKtor_client_coreHttpRequestPipelinePhases, AnymoCoreKtor_client_coreHttpResponsePipelinePhases, AnymoCoreKtor_client_coreHttpResponseContainer, AnymoCoreKtor_client_coreHttpSendPipelinePhases, AnymoCoreKotlinx_serialization_jsonJsonElementCompanion, AnymoCoreKtor_utilsStringValuesBuilder, AnymoCoreKtor_httpUrl, AnymoCoreKtor_httpOutgoingContent, AnymoCoreKtor_httpURLProtocol, AnymoCoreKtor_httpParametersBuilder, AnymoCoreKtor_httpURLBuilderCompanion, AnymoCoreKotlinCancellationException, AnymoCoreKtor_httpHttpMethodCompanion, AnymoCoreKotlinByteIterator, AnymoCoreKtor_httpHttpStatusCode, AnymoCoreKtor_utilsGMTDate, AnymoCoreKtor_httpHttpProtocolVersion, AnymoCoreKtor_ioMemory, AnymoCoreKtor_ioIoBuffer, AnymoCoreKtor_ioByteReadPacket, AnymoCoreKtor_ioByteOrder, AnymoCoreKotlinAbstractCoroutineContextKey<B, E>, AnymoCoreKotlinx_serialization_coreSerialKind, AnymoCoreKtor_httpUrlCompanion, AnymoCoreKtor_httpContentType, AnymoCoreKtor_httpURLProtocolCompanion, AnymoCoreKtor_httpUrlEncodingOption, AnymoCoreKtor_httpHttpStatusCodeCompanion, AnymoCoreKtor_utilsGMTDateCompanion, AnymoCoreKtor_utilsWeekDay, AnymoCoreKtor_utilsMonth, AnymoCoreKtor_httpHttpProtocolVersionCompanion, AnymoCoreKtor_ioMemoryCompanion, AnymoCoreKtor_ioBufferCompanion, AnymoCoreKtor_ioBuffer, AnymoCoreKtor_ioChunkBuffer, AnymoCoreKtor_ioChunkBufferCompanion, AnymoCoreKotlinCharArray, AnymoCoreKtor_ioIoBufferCompanion, AnymoCoreKtor_ioAbstractInputCompanion, AnymoCoreKtor_ioAbstractInput, AnymoCoreKtor_ioByteReadPacketBaseCompanion, AnymoCoreKtor_ioByteReadPacketBase, AnymoCoreKtor_ioByteReadPacketPlatformBase, AnymoCoreKtor_ioByteReadPacketCompanion, AnymoCoreKtor_ioByteOrderCompanion, AnymoCoreKotlinKTypeProjection, AnymoCoreKtor_httpHeaderValueParam, AnymoCoreKtor_httpHeaderValueWithParametersCompanion, AnymoCoreKtor_httpHeaderValueWithParameters, AnymoCoreKtor_httpContentTypeCompanion, AnymoCoreKotlinx_coroutines_coreAtomicDesc, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, AnymoCoreKtor_utilsWeekDayCompanion, AnymoCoreKtor_utilsMonthCompanion, AnymoCoreKotlinCharIterator, AnymoCoreKotlinKVariance, AnymoCoreKotlinKTypeProjectionCompanion, AnymoCoreKotlinx_coroutines_coreAtomicOp<__contravariant T>, AnymoCoreKotlinx_coroutines_coreOpDescriptor, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNode, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, AnymoCoreKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol AnymoCoreAnymoRepository, AnymoCoreKotlinx_coroutines_coreFlow, AnymoCoreKotlinComparable, AnymoCoreAlignment, AnymoCoreKotlinx_coroutines_coreFlowCollector, AnymoCoreKtor_ioCloseable, AnymoCoreAppStyleQueries, AnymoCoreScreenQueries, AnymoCoreRuntimeTransactionWithoutReturn, AnymoCoreRuntimeTransactionWithReturn, AnymoCoreRuntimeTransacter, AnymoCoreAnymoDatabase, AnymoCoreRuntimeSqlDriver, AnymoCoreRuntimeSqlDriverSchema, AnymoCoreKotlinIterator, AnymoCoreRuntimeTransactionCallbacks, AnymoCoreRuntimeSqlPreparedStatement, AnymoCoreRuntimeSqlCursor, AnymoCoreRuntimeCloseable, AnymoCoreRuntimeQueryListener, AnymoCoreKotlinCoroutineContext, AnymoCoreKotlinx_coroutines_coreCoroutineScope, AnymoCoreKtor_client_coreHttpClientEngine, AnymoCoreKtor_client_coreHttpClientEngineCapability, AnymoCoreKtor_utilsAttributes, AnymoCoreKotlinx_serialization_coreDeserializationStrategy, AnymoCoreKotlinx_serialization_coreSerializationStrategy, AnymoCoreKotlinx_serialization_coreSerialFormat, AnymoCoreKotlinx_serialization_coreStringFormat, AnymoCoreKtor_httpHttpMessageBuilder, AnymoCoreKotlinx_coroutines_coreJob, AnymoCoreKotlinCoroutineContextElement, AnymoCoreKotlinCoroutineContextKey, AnymoCoreKtor_client_coreHttpClientFeature, AnymoCoreKtor_ioByteReadChannel, AnymoCoreKtor_utilsTypeInfo, AnymoCoreKtor_client_coreHttpRequest, AnymoCoreKotlinContinuation, AnymoCoreKotlinContinuationInterceptor, AnymoCoreKotlinx_coroutines_coreRunnable, AnymoCoreKotlinSuspendFunction2, AnymoCoreKotlinx_serialization_coreDecoder, AnymoCoreKotlinx_serialization_coreSerialDescriptor, AnymoCoreKotlinx_serialization_coreEncoder, AnymoCoreKotlinx_serialization_coreSerializersModuleCollector, AnymoCoreKotlinx_serialization_coreKSerializer, AnymoCoreKotlinKClass, AnymoCoreKtor_utilsStringValues, AnymoCoreKotlinMapEntry, AnymoCoreKtor_httpHeaders, AnymoCoreKotlinx_coroutines_coreChildHandle, AnymoCoreKotlinx_coroutines_coreChildJob, AnymoCoreKotlinx_coroutines_coreDisposableHandle, AnymoCoreKotlinSequence, AnymoCoreKotlinx_coroutines_coreSelectClause0, AnymoCoreKtor_ioReadSession, AnymoCoreKotlinSuspendFunction1, AnymoCoreKotlinAppendable, AnymoCoreKotlinKType, AnymoCoreKtor_httpHttpMessage, AnymoCoreKotlinFunction, AnymoCoreKotlinx_serialization_coreCompositeDecoder, AnymoCoreKotlinAnnotation, AnymoCoreKotlinx_serialization_coreCompositeEncoder, AnymoCoreKotlinKDeclarationContainer, AnymoCoreKotlinKAnnotatedElement, AnymoCoreKotlinKClassifier, AnymoCoreKtor_httpParameters, AnymoCoreKotlinx_coroutines_coreParentJob, AnymoCoreKotlinx_coroutines_coreSelectInstance, AnymoCoreKotlinSuspendFunction0, AnymoCoreKtor_ioObjectPool, AnymoCoreKtor_ioInput, AnymoCoreKtor_ioOutput;
+@protocol AnymoCoreKotlinComparable, AnymoCoreAnalyticsListener, AnymoCoreAnalytics, AnymoCoreAnymoRepository, AnymoCoreKotlinx_coroutines_coreFlow, AnymoCoreAlignment, AnymoCoreKotlinx_coroutines_coreFlowCollector, AnymoCoreKtor_ioCloseable, AnymoCoreAppStyleQueries, AnymoCoreScreenQueries, AnymoCoreRuntimeTransactionWithoutReturn, AnymoCoreRuntimeTransactionWithReturn, AnymoCoreRuntimeTransacter, AnymoCoreAnymoDatabase, AnymoCoreRuntimeSqlDriver, AnymoCoreRuntimeSqlDriverSchema, AnymoCoreKotlinIterator, AnymoCoreRuntimeTransactionCallbacks, AnymoCoreRuntimeSqlPreparedStatement, AnymoCoreRuntimeSqlCursor, AnymoCoreRuntimeCloseable, AnymoCoreRuntimeQueryListener, AnymoCoreKotlinCoroutineContext, AnymoCoreKotlinx_coroutines_coreCoroutineScope, AnymoCoreKtor_client_coreHttpClientEngine, AnymoCoreKtor_client_coreHttpClientEngineCapability, AnymoCoreKtor_utilsAttributes, AnymoCoreKotlinx_serialization_coreDeserializationStrategy, AnymoCoreKotlinx_serialization_coreSerializationStrategy, AnymoCoreKotlinx_serialization_coreSerialFormat, AnymoCoreKotlinx_serialization_coreStringFormat, AnymoCoreKtor_httpHttpMessageBuilder, AnymoCoreKotlinx_coroutines_coreJob, AnymoCoreKotlinCoroutineContextElement, AnymoCoreKotlinCoroutineContextKey, AnymoCoreKtor_client_coreHttpClientFeature, AnymoCoreKtor_ioByteReadChannel, AnymoCoreKtor_utilsTypeInfo, AnymoCoreKtor_client_coreHttpRequest, AnymoCoreKotlinContinuation, AnymoCoreKotlinContinuationInterceptor, AnymoCoreKotlinx_coroutines_coreRunnable, AnymoCoreKotlinSuspendFunction2, AnymoCoreKotlinx_serialization_coreDecoder, AnymoCoreKotlinx_serialization_coreSerialDescriptor, AnymoCoreKotlinx_serialization_coreEncoder, AnymoCoreKotlinx_serialization_coreSerializersModuleCollector, AnymoCoreKotlinx_serialization_coreKSerializer, AnymoCoreKotlinKClass, AnymoCoreKtor_utilsStringValues, AnymoCoreKotlinMapEntry, AnymoCoreKtor_httpHeaders, AnymoCoreKotlinx_coroutines_coreChildHandle, AnymoCoreKotlinx_coroutines_coreChildJob, AnymoCoreKotlinx_coroutines_coreDisposableHandle, AnymoCoreKotlinSequence, AnymoCoreKotlinx_coroutines_coreSelectClause0, AnymoCoreKtor_ioReadSession, AnymoCoreKotlinSuspendFunction1, AnymoCoreKotlinAppendable, AnymoCoreKotlinKType, AnymoCoreKtor_httpHttpMessage, AnymoCoreKotlinFunction, AnymoCoreKotlinx_serialization_coreCompositeDecoder, AnymoCoreKotlinAnnotation, AnymoCoreKotlinx_serialization_coreCompositeEncoder, AnymoCoreKotlinKDeclarationContainer, AnymoCoreKotlinKAnnotatedElement, AnymoCoreKotlinKClassifier, AnymoCoreKtor_httpParameters, AnymoCoreKotlinx_coroutines_coreParentJob, AnymoCoreKotlinx_coroutines_coreSelectInstance, AnymoCoreKotlinSuspendFunction0, AnymoCoreKtor_ioObjectPool, AnymoCoreKtor_ioInput, AnymoCoreKtor_ioOutput;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -144,6 +144,103 @@ __attribute__((swift_name("KotlinBoolean")))
 + (instancetype)numberWithBool:(BOOL)value;
 @end;
 
+__attribute__((swift_name("AnalyticsListener")))
+@protocol AnymoCoreAnalyticsListener
+@required
+- (void)onEventEvent:(AnymoCoreUnflowEvent *)event __attribute__((swift_name("onEvent(event:)")));
+@end;
+
+__attribute__((swift_name("UnflowEvent")))
+@interface AnymoCoreUnflowEvent : AnymoCoreBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) AnymoCoreUnflowEventCompanion *companion __attribute__((swift_name("companion")));
+- (NSDictionary<NSString *, id> *)allAttributes __attribute__((swift_name("allAttributes()")));
+@property (readonly) NSDictionary<NSString *, id> *attributes __attribute__((swift_name("attributes")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UnflowEvent.Action")))
+@interface AnymoCoreUnflowEventAction : AnymoCoreUnflowEvent
+- (instancetype)initWithName:(NSString *)name interaction:(AnymoCoreUnflowEventActionInteraction *)interaction attributes:(NSDictionary<NSString *, id> *)attributes __attribute__((swift_name("init(name:interaction:attributes:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (NSDictionary<NSString *, id> *)allAttributes __attribute__((swift_name("allAttributes()")));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (AnymoCoreUnflowEventActionInteraction *)component2 __attribute__((swift_name("component2()")));
+- (NSDictionary<NSString *, id> *)component3 __attribute__((swift_name("component3()")));
+- (AnymoCoreUnflowEventAction *)doCopyName:(NSString *)name interaction:(AnymoCoreUnflowEventActionInteraction *)interaction attributes:(NSDictionary<NSString *, id> *)attributes __attribute__((swift_name("doCopy(name:interaction:attributes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDictionary<NSString *, id> *attributes __attribute__((swift_name("attributes")));
+@property (readonly) AnymoCoreUnflowEventActionInteraction *interaction __attribute__((swift_name("interaction")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@end;
+
+__attribute__((swift_name("KotlinComparable")))
+@protocol AnymoCoreKotlinComparable
+@required
+- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
+@end;
+
+__attribute__((swift_name("KotlinEnum")))
+@interface AnymoCoreKotlinEnum<E> : AnymoCoreBase <AnymoCoreKotlinComparable>
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) AnymoCoreKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UnflowEvent.ActionInteraction")))
+@interface AnymoCoreUnflowEventActionInteraction : AnymoCoreKotlinEnum<AnymoCoreUnflowEventActionInteraction *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) AnymoCoreUnflowEventActionInteraction *tap __attribute__((swift_name("tap")));
+@property (class, readonly) AnymoCoreUnflowEventActionInteraction *swipe __attribute__((swift_name("swipe")));
++ (AnymoCoreKotlinArray<AnymoCoreUnflowEventActionInteraction *> *)values __attribute__((swift_name("values()")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UnflowEvent.Companion")))
+@interface AnymoCoreUnflowEventCompanion : AnymoCoreBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AnymoCoreUnflowEventCompanion *shared __attribute__((swift_name("shared")));
+- (AnymoCoreUnflowEventScreen *)screenName:(NSString *)name screenId:(int64_t)screenId parameters:(AnymoCoreKotlinArray<AnymoCoreKotlinPair<NSString *, id> *> *)parameters __attribute__((swift_name("screen(name:screenId:parameters:)")));
+- (AnymoCoreUnflowEventAction *)tapName:(NSString *)name parameters:(AnymoCoreKotlinArray<AnymoCoreKotlinPair<NSString *, id> *> *)parameters __attribute__((swift_name("tap(name:parameters:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UnflowEvent.Screen")))
+@interface AnymoCoreUnflowEventScreen : AnymoCoreUnflowEvent
+- (instancetype)initWithName:(NSString *)name screenId:(int64_t)screenId attributes:(NSDictionary<NSString *, id> *)attributes __attribute__((swift_name("init(name:screenId:attributes:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (NSDictionary<NSString *, id> *)allAttributes __attribute__((swift_name("allAttributes()")));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (int64_t)component2 __attribute__((swift_name("component2()")));
+- (NSDictionary<NSString *, id> *)component3 __attribute__((swift_name("component3()")));
+- (AnymoCoreUnflowEventScreen *)doCopyName:(NSString *)name screenId:(int64_t)screenId attributes:(NSDictionary<NSString *, id> *)attributes __attribute__((swift_name("doCopy(name:screenId:attributes:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSDictionary<NSString *, id> *attributes __attribute__((swift_name("attributes")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@property (readonly) int64_t screenId __attribute__((swift_name("screenId")));
+@property (readonly) NSString *type __attribute__((swift_name("type")));
+@end;
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("AnymoSdk")))
 @interface AnymoCoreAnymoSdk : AnymoCoreBase
@@ -151,7 +248,7 @@ __attribute__((swift_name("AnymoSdk")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)anymoSdk __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) AnymoCoreAnymoSdk *shared __attribute__((swift_name("shared")));
-- (void)setupConfig:(AnymoCoreAnymoSdkConfig *)config databaseDriverFactory:(AnymoCoreDatabaseDriverFactory *)databaseDriverFactory __attribute__((swift_name("setup(config:databaseDriverFactory:)")));
+- (void)setupConfig:(AnymoCoreAnymoSdkConfig *)config databaseDriverFactory:(AnymoCoreDatabaseDriverFactory *)databaseDriverFactory analyticsListener:(id<AnymoCoreAnalyticsListener> _Nullable)analyticsListener __attribute__((swift_name("setup(config:databaseDriverFactory:analyticsListener:)")));
 @property (readonly) NSString *SUBSCRIPTION_ID_DEFAULT __attribute__((swift_name("SUBSCRIPTION_ID_DEFAULT")));
 @end;
 
@@ -176,6 +273,7 @@ __attribute__((swift_name("AnymoComponent")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)anymoComponent __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) AnymoCoreAnymoComponent *shared __attribute__((swift_name("shared")));
+@property (readonly) id<AnymoCoreAnalytics> analytics __attribute__((swift_name("analytics")));
 @property (readonly) id<AnymoCoreAnymoRepository> anymoRepository __attribute__((swift_name("anymoRepository")));
 @end;
 
@@ -256,24 +354,6 @@ __attribute__((swift_name("Block.Button")))
 @property (readonly) int32_t position __attribute__((swift_name("position")));
 @property (readonly) AnymoCoreBlockButtonStyle *style __attribute__((swift_name("style")));
 @property (readonly) NSString *text __attribute__((swift_name("text")));
-@end;
-
-__attribute__((swift_name("KotlinComparable")))
-@protocol AnymoCoreKotlinComparable
-@required
-- (int32_t)compareToOther:(id _Nullable)other __attribute__((swift_name("compareTo(other:)")));
-@end;
-
-__attribute__((swift_name("KotlinEnum")))
-@interface AnymoCoreKotlinEnum<E> : AnymoCoreBase <AnymoCoreKotlinComparable>
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) AnymoCoreKotlinEnumCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(E)other __attribute__((swift_name("compareTo(other:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@property (readonly) int32_t ordinal __attribute__((swift_name("ordinal")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -557,6 +637,28 @@ __attribute__((swift_name("AppStyle")))
 @property (readonly) NSString *primaryColor __attribute__((swift_name("primaryColor")));
 @end;
 
+__attribute__((swift_name("Analytics")))
+@protocol AnymoCoreAnalytics
+@required
+- (void)trackEventEvent:(AnymoCoreUnflowEvent *)event __attribute__((swift_name("trackEvent(event:)")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("AnalyticsModule")))
+@interface AnymoCoreAnalyticsModule : AnymoCoreBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)analyticsModule __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AnymoCoreAnalyticsModule *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("UnflowAnalytics")))
+@interface AnymoCoreUnflowAnalytics : AnymoCoreBase <AnymoCoreAnalytics>
+- (instancetype)initWithAnalyticsListener:(id<AnymoCoreAnalyticsListener> _Nullable)analyticsListener __attribute__((swift_name("init(analyticsListener:)"))) __attribute__((objc_designated_initializer));
+- (void)trackEventEvent:(AnymoCoreUnflowEvent *)event __attribute__((swift_name("trackEvent(event:)")));
+@end;
+
 __attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
 @protocol AnymoCoreKotlinx_coroutines_coreFlow
 @required
@@ -647,6 +749,20 @@ __attribute__((swift_name("Link.NavigableHttp")))
 @property (readonly) NSString *uri __attribute__((swift_name("uri")));
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Link.NavigableOther")))
+@interface AnymoCoreLinkNavigableOther : AnymoCoreLink
+- (instancetype)initWithUri:(NSString *)uri __attribute__((swift_name("init(uri:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (NSString *)component1 __attribute__((swift_name("component1()")));
+- (AnymoCoreLinkNavigableOther *)doCopyUri:(NSString *)uri __attribute__((swift_name("doCopy(uri:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *uri __attribute__((swift_name("uri")));
+@end;
+
 __attribute__((swift_name("RuntimeTransacter")))
 @protocol AnymoCoreRuntimeTransacter
 @required
@@ -725,7 +841,7 @@ __attribute__((swift_name("DatabaseDriverFactory")))
 @interface AnymoCoreDatabaseDriverFactory : AnymoCoreBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (id<AnymoCoreRuntimeSqlDriver>)createDriver __attribute__((swift_name("createDriver()")));
+- (id<AnymoCoreRuntimeSqlDriver>)createDriverMigrationCallback:(AnymoCoreRuntimeAfterVersionWithDriver *)migrationCallback __attribute__((swift_name("createDriver(migrationCallback:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -854,6 +970,41 @@ __attribute__((swift_name("FlowKt")))
 + (AnymoCoreCommonFlow<id> *)asCommonFlow:(id<AnymoCoreKotlinx_coroutines_coreFlow>)receiver __attribute__((swift_name("asCommonFlow(_:)")));
 @end;
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinEnumCompanion")))
+@interface AnymoCoreKotlinEnumCompanion : AnymoCoreBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) AnymoCoreKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinArray")))
+@interface AnymoCoreKotlinArray<T> : AnymoCoreBase
++ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(AnymoCoreInt *))init __attribute__((swift_name("init(size:init:)")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
+- (id<AnymoCoreKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
+@property (readonly) int32_t size __attribute__((swift_name("size")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinPair")))
+@interface AnymoCoreKotlinPair<__covariant A, __covariant B> : AnymoCoreBase
+- (instancetype)initWithFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("init(first:second:)"))) __attribute__((objc_designated_initializer));
+- (A _Nullable)component1 __attribute__((swift_name("component1()")));
+- (B _Nullable)component2 __attribute__((swift_name("component2()")));
+- (AnymoCoreKotlinPair<A, B> *)doCopyFirst:(A _Nullable)first second:(B _Nullable)second __attribute__((swift_name("doCopy(first:second:)")));
+- (BOOL)equalsOther:(id _Nullable)other __attribute__((swift_name("equals(other:)")));
+- (int32_t)hashCode __attribute__((swift_name("hashCode()")));
+- (NSString *)toString __attribute__((swift_name("toString()")));
+@property (readonly) A _Nullable first __attribute__((swift_name("first")));
+@property (readonly) B _Nullable second __attribute__((swift_name("second")));
+@end;
+
 __attribute__((swift_name("KotlinThrowable")))
 @interface AnymoCoreKotlinThrowable : AnymoCoreBase
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
@@ -913,27 +1064,6 @@ __attribute__((swift_name("KotlinUnit")))
 + (instancetype)unit __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) AnymoCoreKotlinUnit *shared __attribute__((swift_name("shared")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinEnumCompanion")))
-@interface AnymoCoreKotlinEnumCompanion : AnymoCoreBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) AnymoCoreKotlinEnumCompanion *shared __attribute__((swift_name("shared")));
-@end;
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinArray")))
-@interface AnymoCoreKotlinArray<T> : AnymoCoreBase
-+ (instancetype)arrayWithSize:(int32_t)size init:(T _Nullable (^)(AnymoCoreInt *))init __attribute__((swift_name("init(size:init:)")));
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (T _Nullable)getIndex:(int32_t)index __attribute__((swift_name("get(index:)")));
-- (id<AnymoCoreKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-- (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
-@property (readonly) int32_t size __attribute__((swift_name("size")));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
@@ -1008,6 +1138,12 @@ __attribute__((swift_name("RuntimeQuery")))
 - (void)notifyDataChanged __attribute__((swift_name("notifyDataChanged()")));
 - (void)removeListenerListener:(id<AnymoCoreRuntimeQueryListener>)listener __attribute__((swift_name("removeListener(listener:)")));
 @property (readonly) RowType (^mapper)(id<AnymoCoreRuntimeSqlCursor>) __attribute__((swift_name("mapper")));
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("RuntimeAfterVersionWithDriver")))
+@interface AnymoCoreRuntimeAfterVersionWithDriver : AnymoCoreBase
+- (instancetype)initWithAfterVersion:(int32_t)afterVersion block:(void (^)(id<AnymoCoreRuntimeSqlDriver>))block __attribute__((swift_name("init(afterVersion:block:)"))) __attribute__((objc_designated_initializer));
 @end;
 
 __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))

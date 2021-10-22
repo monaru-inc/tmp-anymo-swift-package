@@ -5,24 +5,31 @@ import PackageDescription
 
 let package = Package(
     name: "Anymo",
-    platforms: [
-        .iOS(.v11)
-    ],
+    platforms: [.iOS(.v11)],
     products: [
         .library(
             name: "Anymo",
-            targets: ["Anymo"]
-        ),
+            targets: ["AnymoTarget"])
     ],
-    targets:
+    dependencies: [
+        .package(url: "https://github.com/kean/Nuke.git", from: "10.0.0"),
+    ],
+    targets: [
         .target(
-            name: "Anymo",
+            name: "AnymoTarget",
             dependencies: [
+                "Anymo",
                 "AnymoCore",
-                "Anymo"
+                "Nuke",
             ]
         ),
-        .binaryTarget(name: "Anymo", path: "Anymo.xcframework"),
-        .binaryTarget(name: "AnymoCore", path: "AnymoCore.xcframework")
+        .binaryTarget(
+            name: "Anymo",
+            path: "Anymo.xcframework"
+        ),
+        .binaryTarget(
+            name: "AnymoCore",
+            path: "AnymoCore.xcframework"
+        )
     ]
 )

@@ -1,0 +1,11 @@
+framework module AnymoFramework {
+  umbrella header "AnymoFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module AnymoFramework.Swift {
+    header "AnymoFramework-Swift.h"
+    requires objc
+}
