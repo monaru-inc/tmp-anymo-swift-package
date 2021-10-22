@@ -15,7 +15,13 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "Anymo",
+          name: "Anymo",
+          dependencies: [
+            .target(name: AnymoTarget)
+          ]
+        )
+        .target(
+            name: "AnymoTarget",
             dependencies: [
                 "AnymoCore",
                 "AnymoUI"
