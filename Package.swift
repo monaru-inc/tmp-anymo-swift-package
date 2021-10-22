@@ -14,20 +14,15 @@ let package = Package(
             targets: ["Anymo"]
         ),
     ],
-    targets: [
+    targets:
         .target(
             name: "Anymo",
             dependencies: [
-              .target(name: "AnymoTarget")
+                "AnymoCore",
+                "Anymo"
             ]
         ),
-        .target(
-            name: "AnymoTarget",
-            dependencies: [
-                "AnymoCore",
-                "AnymoUI"
-            ]),
-        .binaryTarget(name: "AnymoUI", path: "Anymo.xcframework"),
+        .binaryTarget(name: "Anymo", path: "Anymo.xcframework"),
         .binaryTarget(name: "AnymoCore", path: "AnymoCore.xcframework")
     ]
 )
