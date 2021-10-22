@@ -11,15 +11,16 @@ let package = Package(
     products: [
         .library(
             name: "Anymo",
-            targets: ["Anymo"]),
+            targets: ["Anymo"]
+        ),
     ],
     targets: [
         .target(
-          name: "Anymo",
-          dependencies: [
-            .target(name: AnymoTarget)
-          ]
-        )
+            name: "Anymo",
+            dependencies: [
+              .target(name: "AnymoTarget")
+            ]
+        ),
         .target(
             name: "AnymoTarget",
             dependencies: [
