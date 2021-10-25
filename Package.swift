@@ -19,7 +19,7 @@ let package = Package(
         .binaryTarget(
             name: "UnflowUI",
             path: "UnflowUI.xcframework"
-        )
+        ),
         .binaryTarget(
             name: "UnflowCore",
             path: "UnflowCore.xcframework"
