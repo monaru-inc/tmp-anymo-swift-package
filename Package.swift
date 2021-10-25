@@ -9,20 +9,13 @@ let package = Package(
     products: [
         .library(
             name: "Unflow",
-            targets: ["UnflowUI", "UnflowCore"]
+            targets: ["UnflowUI"]
         )
-    ],
-    dependencies: [
-        .package(url: "https://github.com/kean/Nuke.git", from: "10.0.0"),
     ],
     targets: [
         .binaryTarget(
             name: "UnflowUI",
             path: "UnflowUI.xcframework"
-        ),
-        .binaryTarget(
-            name: "UnflowCore",
-            path: "UnflowCore.xcframework"
         )
     ]
 )
