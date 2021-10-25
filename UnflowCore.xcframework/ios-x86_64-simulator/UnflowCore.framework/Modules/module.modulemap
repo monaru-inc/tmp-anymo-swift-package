@@ -1,0 +1,6 @@
+framework module UnflowCore {
+    umbrella header "UnflowCore.h"
+
+    export *
+    module * { export * }
+}
