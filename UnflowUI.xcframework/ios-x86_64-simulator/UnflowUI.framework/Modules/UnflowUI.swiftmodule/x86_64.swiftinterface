@@ -1,0 +1,90 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UnflowUI
+import Combine
+import Foundation
+import Nuke
+import SafariServices
+import Swift
+import SwiftUI
+import UIKit
+import UnflowCore
+@_exported import UnflowUI
+import _Concurrency
+@_hasMissingDesignatedInitializers public class Anymo {
+  public var isInitialized: Swift.Bool
+  public static func initialize(config: UnflowUI.Anymo.Config, analyticsListener: UnflowCore.AnalyticsListener? = nil)
+  public static func sync()
+  public struct Config {
+    public init(apiKey: Swift.String, enableLogging: Swift.Bool)
+  }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class OpenerViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@available(iOS 13.0, *)
+@_Concurrency.MainActor(unsafe) public struct RemoteImage : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(uri: Swift.String, contentMode: SwiftUI.ContentMode = .fill)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI11RemoteImageV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+@_Concurrency.MainActor(unsafe) public struct OpenerView : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public init(subscriptionId: Swift.String = AnymoSdk.shared.SUBSCRIPTION_ID_DEFAULT)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI10OpenerViewV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+public struct BlockView : SwiftUI.View {
+  public init(block: UnflowCore.Block)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI9BlockViewV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+public struct TextBlock : SwiftUI.View {
+  public init(block: UnflowCore.Block.Text)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI9TextBlockV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+public struct OpenerBanner : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI12OpenerBannerV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+public struct Paginator : SwiftUI.View {
+  public init(numDots: Swift.Int, activeIndex: Swift.Int)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI9PaginatorV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+public struct OpenerRail : SwiftUI.View {
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI10OpenerRailV4bodyQrvp", 0) __
+}
+@available(iOS 13.0, *)
+public struct ImageBlock : SwiftUI.View {
+  public init(block: UnflowCore.Block.Image)
+  @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s8UnflowUI10ImageBlockV4bodyQrvp", 0) __
+}

@@ -4,25 +4,28 @@
 import PackageDescription
 
 let package = Package(
-    name: "Anymo",
-    platforms: [
-        .iOS(.v11)
-    ],
+    name: "Unflow",
+    platforms: [.iOS(.v11)],
     products: [
         .library(
-            name: "Anymo",
-            targets: ["Anymo"]
-        ),
+            name: "Unflow",
+            targets: ["UnflowTarget"]
+        )
     ],
-    targets:
+    dependencies: [
+        .package(url: "https://github.com/kean/Nuke.git", from: "10.0.0"),
+    ],
+    targets: [
         .target(
-            name: "Anymo",
+            name: "UnflowTarget",
             dependencies: [
-                "AnymoCore",
-                "Anymo"
+                "Unflow",
+                "Nuke",
             ]
         ),
-        .binaryTarget(name: "Anymo", path: "Anymo.xcframework"),
-        .binaryTarget(name: "AnymoCore", path: "AnymoCore.xcframework")
+        .binaryTarget(
+            name: "Unflow",
+            path: "UnflowUI.xcframework"
+        )
     ]
 )
